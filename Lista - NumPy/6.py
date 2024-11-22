@@ -5,6 +5,7 @@ import numpy as np
 
 arr = np.random.randint(1, 100, size = 20)
 filter_arr = arr > 50
+
 newarr = arr[filter_arr]
 
 print(newarr)
